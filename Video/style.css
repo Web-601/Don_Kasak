@@ -1,0 +1,80 @@
+body {
+    background-image: url('The seasons/Одно окно.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(1, 255, 149);
+}
+
+header {
+    background-color: rgb(253, 253, 253);
+    height: 60px;
+}
+
+section {
+    border-color:rgb(31, 3, 190);
+    border-radius: 15px;
+    border-style: solid;
+    margin: 150px;
+    padding: 10px;
+    color: rgb(4, 13, 65);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+a:link {
+    color: rgb(238, 255, 0);
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(39, 35, 13);
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115vh; 
+}
+
+.center-image img {
+    max-width: 120%; 
+    height: auto; 
+}
+
+audio {
+    margin: 15px 0px 0px 150px;
+}
+
+h2 {
+    text-align: justify;
+}
+footer {
+    background-color: rgb(1, 255, 149);
+    color: rgb(6, 15, 145);
+}
+
+.footer, p {
+    color: rgb(246, 248, 108);
+    font-family: 'Tahoma', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.footer, a, ul {
+    color: rgb(255, 1, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: oblique;
+}
